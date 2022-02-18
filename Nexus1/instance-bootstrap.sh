@@ -1,0 +1,10 @@
+#!/bin/bash
+yum update -y
+yum install java-1.8.0-openjdk -y
+mkdir nexus
+cd nexus
+wget -O nexus.tar.gz http://download.sonatype.com/nexus/3/nexus-3.22.1-02-unix.tar.gz
+tar -xvzf nexus.tar.gz
+rm -f nexus.tar.gz
+cd nexus-3.22.1-02/bin/
+./nexus start

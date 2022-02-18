@@ -1,0 +1,1 @@
+This Script is for creating nexus with existing Security group

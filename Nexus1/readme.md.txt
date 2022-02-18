@@ -1,0 +1,1 @@
+creating nexus repo by creating a new security group with existing VPC(default VPC)
